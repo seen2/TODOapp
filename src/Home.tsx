@@ -20,7 +20,6 @@ export default function Hello() {
     setTodo("");
   };
   const onDeleteTODO = (index: number): void => {
-    console.log(index);
     setTodoList(todoList.filter((todo, i) => index !== i));
   };
 
